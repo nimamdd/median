@@ -33,7 +33,7 @@ public class TaTest {
     public static List<Integer> generateRandomTestNumbers() {
         Random random = new Random();
         List<Integer> input = new ArrayList<>();
-        int count =  1 + random.nextInt(3)
+        int count =  1 + random.nextInt(3);
         input.add(testCount);
 
         for (int i = 0; i < testCount; i++) {
